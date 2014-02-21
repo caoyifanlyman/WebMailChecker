@@ -1,0 +1,36 @@
+
+<!--This page allows user to change his or her preferences allowed by Web Mail Checker -->
+
+<html>
+<head>
+<title>Web Mail Checker Options</title>
+<link rel="stylesheet" href="styles/option.css" type="text/css">
+<script src="scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="scripts/option.js" type="text/javascript"></script>
+</head>
+<body onload="restore_options()">
+	<!-- show current settings as u go to options page-->
+
+	<div id="optionsBox">
+		<h1>Web Mail Checker Options</h1>
+		<form>
+			<table style="width: 100%">
+				<tr>
+					<td colspan="2">Icon selection:<br />
+						<div id="icon_selection"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Sound alert selection:<br />
+						<div id="sound_selection"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Poll Interval (s)<br /> <input type="text" size="5"
+						id="poll_interval" value='15' onChange="saveAndChangeInterval()"/></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

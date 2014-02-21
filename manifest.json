@@ -1,0 +1,15 @@
+﻿{
+   "name": "Web Mail Checker",
+   "description": "Displays the number of unread messages in your Fudan Mail.",
+  "background_page": "background.html",
+   "browser_action": {
+      "default_title": "Web Mail Checker for Fudan Mail",
+      "default_icon":"icons/not_logged_in.png"
+   }, 
+   "icons": {
+        "128": "img/logo.png"
+   },
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://mail.fudan.edu.cn/*"],
+   "version": "1.0.0"
+}

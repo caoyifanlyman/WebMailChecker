@@ -1,0 +1,76 @@
+body {
+	font-family: arial, sans-serif;
+	background: #6BACCF url("/img/options_bg.png") repeat-x top left;
+	color: #fff;
+}
+
+body a,body a:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+body a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+#optionsBox {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 500px;
+	text-align: center;
+}
+
+#optionsBox img {
+	vertical-align: text-bottom;
+}
+
+#optionsBox input {
+	margin-top: 5px;
+}
+
+#save {
+	clear: both;
+	float: right;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	font-size: 70%;
+	font-weight: bold;
+}
+
+#icon_selection {
+	margin-left: 20px;
+}
+
+table {
+	border-width: 5px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: #fff;
+	color: #000;
+	font-size: 90%;
+	marign-bottom: 0;
+}
+
+table td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: dashed;
+	border-color: #ccc;
+	background-color: white;
+}
+
+table td:hover {
+	background-color: #fff8dc;
+}
+
+td.left_column {
+	text-align: right;
+	width: 100px;
+}
+
+form {
+	margin: 0;
+}
